@@ -5,16 +5,19 @@ This bash script automates and simplifies vulnerability scanning using NMAP. The
 ## Installation:
 
 The freevulnaudit.sh is tested in KALI LINUX™.
-* Simply copy the NSE script freevulnsearch.nse (https://github.com/OCSAF/freevulnsearch) into the corresponding script directory of the NMAP installation. In KALI LINUX for example: /usr/share/nmap/scripts/
 
-* apt-get install xlstproc
-* apt-get install wkhtmltopdf
+    Simply copy the NSE script freevulnsearch.nse (https://github.com/OCSAF/freevulnsearch) into
+    the corresponding script directory of the NMAP installation.
+    In KALI LINUX for example: /usr/share/nmap/scripts/
+
+    apt-get install xlstproc
+    apt-get install wkhtmltopdf
 
 ## Usage:
 
 The application is simple, just use the -h parameter to display the HELP.
 
-* ./freevulnaudit.sh -h
+    ./freevulnaudit.sh -h
 
 Special thanks to Christian Kiß and the open source community for many useful ideas that accelerated the creation of this script! Further ideas and suggestions for improvement are very welcome.
 

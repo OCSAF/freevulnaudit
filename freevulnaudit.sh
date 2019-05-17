@@ -53,12 +53,14 @@ usage() {
 	echo "  -l <host_list> - scanning targets from list"
 	echo "  -n <nmap_parameters> - individual NMAP parameters"
 	echo "  -o - NMAP-Parameter -O for OS-Detection"
-	echo "  -p - Ports"
+	echo "  -p - Ports like -p 80,443"
 	echo "  -u - Scans UDP-Ports, default only TCP-Ports for higher scan speed"
 	echo "  -q - Quick-Audit - Only the specially selected scripts"
+	echo "  -v - Vuln scanning with script freevulnsearch.nse"
+	echo "  -w - UDP light scans only UDP-Ports:500,4500,123,53"
        	echo ""
 	echo "NOTES:"
-	echo "#Always generates a html and a pdf file"
+	echo "#Always creates an html and a pdf file in the directory ./vulnreport/"
 	echo "#See also the MAN PAGE - https://freecybersecurity.org"
 }
 

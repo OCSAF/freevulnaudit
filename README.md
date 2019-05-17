@@ -10,7 +10,7 @@ The freevulnaudit.sh is tested in KALI LINUX™.
     the corresponding script directory of the NMAP installation.
     In KALI LINUX for example: /usr/share/nmap/scripts/
 
-    apt-get install xlstproc
+    apt-get install xsltproc
     apt-get install wkhtmltopdf
 
 ## Usage:
